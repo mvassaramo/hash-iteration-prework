@@ -7,7 +7,7 @@
 # }
 
 def select_winner(passengers)
-  passengers.each do |key, value|
+  passengers.each do |suite, name|
     if key == "suite_a"
       puts "#{value}"
     end 
