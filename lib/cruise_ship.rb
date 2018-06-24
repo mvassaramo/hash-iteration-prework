@@ -11,4 +11,5 @@ def select_winner(passengers)
     if key == "suite_a"
       puts "#{value}"
     end 
+  end
 end
